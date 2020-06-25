@@ -1,0 +1,111 @@
+#big-card-container{
+    height: 350px;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+#overlap{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    transition: all 0.2s ease-in-out;
+}
+
+#bg-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 12px;
+    position: absolute;
+    left:-100px;
+    top:0;
+    bottom:0;
+}
+
+.bg-card{
+    background: #F7F6F3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.bg-card>p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+#big-card-content{
+    position: relative;
+    top:25%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+}
+
+#action-content{
+    user-select: none;
+}
+
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: white
+}
+
+.highlight{
+    color : #FBAF03;
+}
+
+button{
+    margin-top: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.cta{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.big-card-cta{
+    padding: 13px 43px;
+}

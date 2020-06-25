@@ -1,0 +1,37 @@
+#image-card-container{
+    height:130px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#image-card-container>#content{
+    /* display: flex; */
+    flex-direction: column;
+    background-color: #F7F6F3;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    top:110px;
+    width:100%;
+    display: none;
+}
+
+#image-card-container>#content p{
+    color: black;
+}
+
+#top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sm-card{
+    background: #FFFFFF;
+    border-radius: 6px;
+}

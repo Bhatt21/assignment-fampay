@@ -1,0 +1,33 @@
+#home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card{
+    width:90%;
+    max-width: 320px;
+    margin-left:auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#logo-container{
+    text-align: center;
+}
+
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
+#content-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    background-color: #F7F6F3;
+    border-radius: 12px 12px 0px 0px;
+    align-items: center;
+    padding: 15px 0px;
+}

@@ -1,0 +1,43 @@
+#spin-card-container{
+    background-color: white;
+    border-radius: 12px;
+    height: 60px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#spin-card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+}
+
+#text-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#text-content>p{
+    color: black;
+    margin-left:10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#text-content>img{
+    height: 30px;
+    width: 30px;
+}
+
+#spin-card-content>#action::after{
+    content: url('../assets/images/rArrow.svg');
+    width:20px;
+    height: 20px;
+}
