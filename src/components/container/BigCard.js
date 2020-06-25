@@ -25,7 +25,7 @@ export default class BigCard extends Component{
     remove = () => {
         let elem = document.getElementById('big-card-container');
         elem.style.height = '0px';
-        // localStorage.setItem('big-card-visible', false);
+        localStorage.setItem('big-card-visible', false);
     }
  
     resetTimer=()=>{
