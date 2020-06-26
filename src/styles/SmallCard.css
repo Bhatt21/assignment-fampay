@@ -1,9 +1,10 @@
 .small-card-container{
     max-width: 320px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     width:90%;
     margin-left:auto;
     margin-right: auto;
+    transition: all 0.2s ease-in-out;
 }
 
 .scrollable{
@@ -12,7 +13,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+    transition: all 0.2s ease-in-out;
 }
 
 .non-scrollable-container{
@@ -23,7 +24,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+    transition: all 0s ease-in-out;
 }
 
 

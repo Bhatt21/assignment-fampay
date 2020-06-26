@@ -14,10 +14,13 @@ body{
     margin-left:auto;
     margin-right: auto;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 #logo-container{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .responsive-img{
@@ -34,7 +37,23 @@ body{
     border-radius: 12px 12px 0px 0px;
     align-items: center;
     padding: 15px 0px;
+    padding-top: 0px;
     /* width: 100vw;
     /* margin-left:auto;
     margin-right:auto; */
+}
+
+.invisible{
+    height: 0px !important;
+    margin: 0px !important;
+    display: none;
+}
+
+
+
+@media only screen and (min-width:600px){
+    #content-container{
+        max-width: 360px;
+        margin:auto
+    }
 }

@@ -16,7 +16,7 @@ export default class CenterCard extends Component{
         console.log(this.props.data.cards[0].cta)
 
         return(
-            <div id="center-card-container" className="card">
+            <div id="center-card-container" className="no-transition card">
                 <div id="center-card-content">
                     <div id="avatar-image-container">
                         <img src={this.props.data.cards[0].icon.image_url} className="responsive-img" alt="avatar"></img>

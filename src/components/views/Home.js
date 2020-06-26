@@ -1,10 +1,6 @@
 import React,  {Component} from 'react';
 import logo from '../../assets/images/fampaylogo.svg';
-import BigCard from '../container/BigCard';
-import SpinCard from '../container/SpinCard';
-import '../../styles/Home.css';
-import ImageCard from '../container/ImageCard';
-import CenterCard from '../container/CenterCard';
+import '../../styles/Home.css'
 import Card from '../container/Card';
 
 const url = 'https://run.mocky.io/v3/9fc6c82f-3fde-431d-b1e5-0a1982928cb4';
@@ -68,7 +64,7 @@ export default class Home extends Component{
         }
         return(
             <div id="home-container">
-                <div id="logo-container">
+                <div id="logo-container" className="no-transition">
                     <img src={logo} alt="logo" className="responsive-img"></img>
                 </div>
                 {content}

@@ -1,4 +1,4 @@
-import React, {Component,  Fragmet, Fragment} from 'react';
+import React, {Component} from 'react';
 import '../../styles/SmallCard.css'
 
 export default class SmallCard extends Component{
@@ -54,7 +54,7 @@ export default class SmallCard extends Component{
         }
 
         return(
-            <div className="small-card-container">
+            <div className="small-card-container no-transition">
                 {cards}
             </div>
         )

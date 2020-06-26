@@ -1,24 +1,45 @@
 #image-card-container{
-    height:130px;
+    /* min-height:130px; */
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 12px;
     position: relative;
+
+}
+
+#return-action{
+    display: none;
     margin-bottom: 20px;
 }
 
+.image-card-transition{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+}
+
+.image-card-image-container{
+    text-align: center;
+}
+
 #image-card-container>#content{
-    /* display: flex; */
+
     flex-direction: column;
     background-color: #F7F6F3;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    bottom: 0;
-    top:110px;
     width:100%;
+    background-color: #F7F6F3;
+    border-radius: 12px 12px 0px 0px;
+    position: relative;
+    top: -30px;
     display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #image-card-container>#content p{
@@ -28,10 +49,103 @@
 #top-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.sm-card:nth-child(1){
+    margin-right: 25px;
+}
+
+#top-content, #mid-content, #bottom-content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-content, #mid-content{
+    margin-top: 25px;
+}
+
+.sm-card,.md-card,.lg-card{
+    background: #FFFFFF;
+    border-radius: 6px;
+    /* padding: 3px 5px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sm-card{
-    background: #FFFFFF;
-    border-radius: 6px;
+    width: 152px;
+    height: 76px;
+}
+
+
+.md-card{
+    max-width: 335px;
+    height: 70px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lg-card{
+    max-width: 335px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#content > p{
+    font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+}
+
+#content p , .lg-card ul li{
+    font-family: 'Metropolis';
+    font-style: normal;
+}
+
+.sm-card p, .md-card p , .lg-card ul li{
+    margin: 0px;
+}
+
+.sm-card div:nth-child(1) p, .md-card div:nth-child(1) p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.sm-card div:nth-child(2) p, .md-card div:nth-child(2) p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.lg-card ul li {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.return-btn{
+    position: relative;
+    left: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 12px;
+}
+
+@media only screen and (min-width:600px){
+    .image-card-transition{
+        max-width: 360px;
+    }
 }

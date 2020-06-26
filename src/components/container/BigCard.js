@@ -7,10 +7,6 @@ var timer;
 
 export default class BigCard extends Component{
 
-    constructor(){
-        super();
-    }
-
     reveal() {
        timer = setTimeout(()=>{
         let elem = document.getElementById('overlap');
@@ -36,7 +32,7 @@ export default class BigCard extends Component{
 
         return(
             !localStorage.getItem('big-card-visible') && 
-            <div id="big-card-container" className="card">
+            <div id="big-card-container" className="card no-transition">
                 <div id="bg-content">
                     <div className="bg-card" 
                     onClick={this.remove}

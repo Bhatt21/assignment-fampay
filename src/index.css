@@ -12,6 +12,11 @@ body {
   src: local('Roboto'), url('./assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
+@font-face{
+  font-family: 'Metropolis';
+  src: local('Metropolis'), url('./assets/fonts/Metropolis/Metropolis-Regular.otf') format('opentype');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
