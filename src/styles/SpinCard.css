@@ -21,9 +21,12 @@
     align-items: center;
 }
 
-#text-content>p{
-    color: black;
+#text-content p {
     margin-left:10px;
+}
+
+.card-name-text{
+    color: black;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;

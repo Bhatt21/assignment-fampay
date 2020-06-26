@@ -21,8 +21,8 @@ export default class CenterCard extends Component{
                     <div id="avatar-image-container">
                         <img src={this.props.data.cards[0].icon.image_url} className="responsive-img" alt="avatar"></img>
                     </div>
-                    <div id="avatar-name">
-                        <p>{this.props.data.cards[0].title}</p>
+                    <div>
+                        <p className="avatar-name">{this.props.data.cards[0].title}</p>
                     </div>
                     <div id="card-name">
                         <p>{this.props.data.cards[0].formatted_description.text}</p>

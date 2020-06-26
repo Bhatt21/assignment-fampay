@@ -23,13 +23,12 @@
     margin-top:20px;
 }
 
-#avatar-name>p{
+.avatar-name{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
     color: rgba(27, 27, 30, 0.725524);
     margin-bottom: 0px;
     margin-top:5px;

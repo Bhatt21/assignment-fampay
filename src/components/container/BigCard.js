@@ -17,7 +17,7 @@ export default class BigCard extends Component{
         elem.style.transform = 'translateX(100px)';
         let dismisser = document.getElementById('bg-content');
         dismisser.style.transform = 'translateX(100px)'
-    },1000)
+    },300)
     
         
     }
@@ -25,7 +25,7 @@ export default class BigCard extends Component{
     remove = () => {
         let elem = document.getElementById('big-card-container');
         elem.style.height = '0px';
-        // localStorage.setItem('big-card-visible', false);
+        localStorage.setItem('big-card-visible', false);
     }
  
     resetTimer=()=>{

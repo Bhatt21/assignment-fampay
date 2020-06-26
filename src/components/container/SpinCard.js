@@ -9,7 +9,7 @@ export default class SpinCard extends Component{
                     <div id="text-content">
                         <img src={this.props.data.cards[0].icon.image_url} alt="icon" className="responsive-img-alt">
                         </img>
-                        <p>{this.props.data.cards[0].formatted_title.text}</p>
+                        <p className="card-name-text">{this.props.data.cards[0].formatted_title.text}</p>
                     </div>
                     <div id="action">
                     </div>
